@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LINQ_Labb;
+using System;
 
 namespace LINQ_labb
 {
@@ -6,7 +7,9 @@ namespace LINQ_labb
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Queries.SortedElectronicProducts();
+            Console.WriteLine();
+            Queries.FilteredSuppliers();
         }
     }
 }
