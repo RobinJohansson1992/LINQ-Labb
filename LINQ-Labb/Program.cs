@@ -7,9 +7,7 @@ namespace LINQ_labb
     {
         static void Main(string[] args)
         {
-            Queries.SortedElectronicProducts();
-            Console.WriteLine();
-            Queries.FilteredSuppliers();
+            UI.RunProgram();
         }
     }
 }
